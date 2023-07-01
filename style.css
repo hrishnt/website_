@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Ubuntu:wght@300;500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Agdasima', sans-serif;
+}
+li 
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+nav 
+{
+    height: auto;
+   margin-top: 20px;
+   padding-top: 20px;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0px;
+   background: #fff;
+   z-index: 5
+}
+.burger 
+{
+    display: none;
+}
+.line 
+{
+    width: 37px;
+    background: #000;
+    height: 4px;
+    margin: 5px 3px;
+}
+.navbar li 
+{
+    display: inline;
+    font-size: 25px;
+    font-weight: 25px;
+    
+}
+.navbar li a:hover
+{
+    color: #9B804E;
+}
+.right 
+{
+    text-align: right;
+}
+.btn 
+{
+    border: 1px solid #9B804E;
+    background-color: #9B804E;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 25px;
+    color: #fff;
+    width: 50%;
+}
+.btn:hover
+{
+    border: 1px solid #000;
+    background-color: #000;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 25px;
+    color: #fff;
+    width: 50%;
+}
+.bg 
+{
+    background: rgba(241, 233, 233, 0.7) url('images/background.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+    width: 100%;
+    height: 1050px;
+    margin-top: 20px;
+}
+.problem 
+{
+    background: rgba(241,233,233,0.7) url('images/background1.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+    width: 100%;
+    height: 500px; 
+    margin-top: 100px;
+}
+.middle 
+{
+    text-align: center;
+    padding-top: 440px;
+}
+.last 
+{
+    text-align: center;
+    padding-top: 150px;
+    margin-left: 100px;
+}
+.m 
+{
+    color: #9B804E;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.i 
+{
+    font-size: 75px;
+    width: 500px;
+    margin-left: 550px;
+}
+.d 
+{
+    font-size: 25px;
+    width: 495px;
+    margin-left: 550px;
+}
+.last h6 
+{
+    font-size: 25px;
+}
+.options 
+{
+    background: #F5F5F5;
+    height: auto;
+}
+.op1
+{
+    margin-top: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+.opimg 
+{
+    height: 70px;
+    padding: 10px;
+}
+.triangle ,.trianglem ,.trianglel, .triangler
+{
+    display: block;
+}
+.opp 
+{
+    font-size: 25px;
+    margin-top: 12px;
+    margin: 0;
+}
+.choimg 
+{
+    height: 550px;
+    border-radius: 10px;
+    margin-top: 110px;
+    width: 85%;
+    cursor: pointer;
+    
+}
+.choosing 
+{
+    display: flex;
+}
+.choh
+{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.choh:hover
+{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 80px;
+    text-align: center;
+    cursor: pointer;
+    color: #9B804E;
+}
+.lh
+{
+    margin-left:150px ;
+}
+.mh 
+{
+    margin-left: 50px;
+}
+.l 
+{
+    margin-left: 60px;
+}
+.m
+{
+    margin-left: 25px;
+}
+.trianglem
+{
+    width: 0;
+	height: 0;
+	border-top: 80px solid #000;
+	border-left: 80px solid transparent;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 1440px;
+    left: 841px;
+    background-size: cover;
+    cursor: pointer;
+}
+.trianglem:hover
+{
+    width: 0;
+	height: 0;
+	border-top: 80px solid #9B804E;
+	border-left: 80px solid transparent;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 1440px;
+    left: 841px;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.triangler
+{
+    width: 0;
+	height: 0;
+	border-top: 80px solid #000;
+	border-left: 80px solid transparent;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 1440px;
+    left: 1315px;
+    background-size: cover;
+    cursor: pointer;
+}
+.triangler:hover
+{
+    width: 0;
+	height: 0;
+	border-top: 80px solid #9B804E;
+	border-left: 80px solid transparent;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 1440px;
+    left: 1315px;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.triangle
+{
+    width: 0;
+	height: 0;
+	border-top: 80px solid #000;
+	border-left: 80px solid transparent;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 1440px;
+    left: 375px;
+    background-size: cover;
+    cursor: pointer;
+}
+.triangle:hover
+{
+	width: 0;
+	height: 0;
+	border-top: 80px solid #9B804E;
+	border-left: 80px solid transparent;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 1440px;
+    left: 375px;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.al
+{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 1445px;
+    left: 417px;
+    z-index: 1;
+    cursor: pointer;
+}
+.am 
+{
+    font-size: 25px;
+    position: absolute;
+    top: 1445px;
+    left: 880px;
+    z-index: 1;
+    cursor: pointer;
+    color: #fff;
+}
+.ar 
+{
+    font-size: 25px;
+    position: absolute;
+    top: 1445px;
+    left: 1355px;
+    z-index: 1;
+    cursor: pointer;
+    color: #fff;
+}
+.contact 
+{
+    background: #FCF9EF;
+    height:auto;
+}
+.cp 
+{
+    font-size: 80px;
+    font-weight: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.a 
+{
+    color: #9B804E;
+}
+.b 
+{
+    font-size: 50px;
+}
+.contactmain 
+{
+    background: #FBF6E8;
+}
+.cmp 
+{
+    font-size: 80px;
+    font-weight: 30px;
+    padding-top: 100px;
+    text-align: center;
+}
+.cmpal 
+{
+    color: #9B804E;
+}
+.cmp1 
+{
+    font-size: 25px;
+    text-align: center;
+}
+.para 
+{
+    font-size: 25px;
+    text-align: center;
+    padding-right: 80px;
+}
+.para1 
+{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 0px;
+}
+.para2 
+{
+    font-size: 20px;
+    text-align: center;
+}
+.para3 
+{
+    font-size: 20px;
+    text-align: center;
+}
+.para4 
+{
+    font-size: 20px;
+    text-align: center;
+}
+.ele 
+{
+    font-size: 40px;
+    padding-left: 40px;
+}
+.ele1 
+{
+    font-size: 40px;
+    padding-left:0px ;
+    text-align: center;
+}
+.ele2 
+{
+    font-size: 40px;
+    text-align: center;
+}
+.ele3 
+{
+    font-size: 40px;
+    text-align: center;
+}
+.ele4 
+{
+    font-size: 40px;
+    text-align: center;
+}
+.conimg 
+{
+    padding-left: 50px;
+}
+.f 
+{
+    margin-top: 50px;
+    margin-left: -50px;
+}
+.t 
+{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.s 
+{
+    margin-top: 100px;
+    margin-left: -30px;
+}
+.fo
+{
+    margin-top: 100px;
+    margin-left: 30px;
+    
+}
+.fi 
+{
+    margin-left: -10px;
+    margin-top: 40px;
+}
+.conimg1 
+{
+    padding-left: 40px;
+}
+.conimg2 
+{
+    padding-left: 40px;
+}
+.conimg3 
+{
+    padding-left: 40px;
+}
+.conimg4
+{
+    padding-left: 85px;
+}
+.below 
+{
+    background: #F9F6ED;
+    height: auto;
+}
+.bh 
+{
+    text-align: center;
+    font-size: 80px;
+    padding-top: 80px;
+}
+.bhs 
+{
+    color: #9B804E;
+}
+.bp 
+{
+    text-align: center;
+    font-size: 25px;
+}
+.acordion 
+{
+    margin-top: 60px;
+}
+.accordion
+{
+    width: 70%;
+    margin-left: 250px;
+}
+.accordion-item 
+{
+    background: #F9F6ED;
+}
+.accordion-button 
+{
+    background: #9B804E;
+    color: #fff;
+    font-size: 30px;
+}
+.minus 
+{
+    display: none;
+}
+.accordion-body 
+{
+    font-size: 20px;
+    padding: 10px;
+}
+.rh 
+{
+    font-size: 70px;
+    text-align: center;
+    margin-left: -100px;
+}
+.rs 
+{
+    color: #9B804E;
+}
+.rp 
+{
+    font-size: 30px;
+    font-weight: 20px;
+    margin-left: -100px;
+}
+.rfi
+{
+    height: 320px;
+    width: 350px;
+    border: 1px solid #9B804E;
+    background: #F9F6ED;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.rse 
+{
+    height: 400px;
+    width: 350px;
+    border: 1px solid #9B804E;
+    background-color: #F9F6ED;
+    margin-top: 140px;
+    cursor: pointer;
+    margin-left: 90px;
+}
+.rth 
+{
+    height: 320px;
+    width: 350px;
+    border: 1px solid #9B804E;
+    background: #F9F6ED;
+    margin-top: 100px;
+    cursor: pointer;
+    margin-left: 90px ;
+}
+.revthird 
+{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.revfirst 
+{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.revsecond 
+{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.revfirst2 
+{
+    color:#9B804E;
+    font-size: 25px;
+}
+.revfirst2:hover
+{
+    color:#000;
+    font-size: 25px;
+}
+.revthird2 
+{
+    color: #9B804E;
+    font-size: 25px;
+}
+.revthird2:hover
+{
+    color: #000;
+    font-size: 25px;
+}
+.revsecond2 
+{
+    color: #9B804E;
+    font-size: 25px;
+}
+.revsecond2:hover
+{
+    color: #000;
+    font-size: 25px;
+}
+.revsecond3 
+{
+    font-size: 20px;
+    font-weight: 10px;
+}
+.revthird3 
+{
+    font-size: 20px;
+    font-weight: 10px;
+}
+.revfirst3 
+{
+    font-size: 20px;
+    font-weight: 10px;
+}
+.y 
+{
+    color: yellow;
+}
+.ph 
+{
+    font-size: 70px;
+    font-weight: 20px;
+    padding-top: 100px;
+}
+.pp 
+{
+    font-size: 30px;
+}
+.ab 
+{
+    display: flex;
+}
+.btn-white 
+{
+    background: #fff;
+    color: #9B804E;
+    border: 1px solid #fff;
+    width: 25%;
+    padding: 5px;
+}
+.btn-white:hover
+{
+    background: #9B804E;
+    color: #fff;
+    border: 1px solid #9B804E;
+    width: 25%;
+    padding: 5px;
+}
+.btn-brown 
+{
+    width: 25%;
+    padding: 5px;
+}
+.btn-brown1 
+{
+    width: 15%;
+    padding: 10px;
+    margin-left: 640px;
+    margin-top: 80px;
+}
+.btn-brown1:hover 
+{
+    width: 15%;
+    padding: 10px;
+    margin-left: 640px;
+    margin-top: 80px;
+    background: #000;
+    color: #fff;
+}
+.btn-brown:hover 
+{
+    width: 25%;
+    padding: 5px;
+    color: #fff;
+    background: #000;
+}
+.tala 
+{
+    margin-top: 50px;
+    
+}
+.final 
+{
+    background: #FBF6E8;
+    height: auto;
+}
+.flogo 
+{
+    margin-left: 620px;
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+} 
+.pf 
+{
+    font-size: 60px;
+    font-weight: 20px;
+    text-align: center;
+}
+.skyo 
+{
+    margin-top: 100px;
+}
+.skp 
+{
+    font-size: 25px;
+}
+.ski 
+{
+    text-align: right;
+    font-size: 25px;
+}
+.o 
+{
+    padding: 15px;
+    cursor: pointer;
+}
+.o:hover
+{
+    padding: 15px;
+    color: #9B804E;
+    cursor: pointer;
+}
+

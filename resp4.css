@@ -1,0 +1,186 @@
+@media screen and (1281px <=width <=1517px)
+{
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: -10px;
+        transition: all 0.8s ease-out;
+
+}
+.triangle 
+{
+    display: none;
+}
+.height 
+{
+    height:80px;
+}
+.opa
+{
+    opacity: 0;
+}
+.hnav 
+{
+    opacity: 0;
+}
+.i , .d
+{
+    margin-left: 540px;
+}
+.last 
+{
+    margin-left: 40px;
+}
+.opr
+{
+    margin-left: -50px;
+}
+.opp , .opimg
+{
+    font-size: 20px;
+}
+.navbar li 
+{
+    padding: 80px;
+}
+    .right 
+    {
+        display: none;
+    }
+    .burger 
+    {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        left: 1200px;
+        top: 35px;
+    }
+    .burger.active .line:nth-child(2)
+    {
+        opacity: 0;
+    }
+    .burger.active .line:nth-child(1)
+    {
+        transform: translateY(9px) rotate(45deg);
+    }
+    .burger.active .line:nth-child(3)
+    {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .active 
+    {
+        transition: all 1.8s ease-in-out;
+    }
+    .al , .am , .ar 
+    {
+        display: none;
+    }
+    .choimg 
+    {
+        width: 100%;
+    }
+    .m,.l
+    {
+        margin-left: 0px;
+    }
+    .lh 
+    {
+        margin-left: 80px;
+    }
+    .mh 
+    {
+        margin-left: 70px;
+    }
+    .choh 
+    {
+        margin-left: 60px;
+    }
+    .rowres 
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .rse , .rth,.rfi
+    {
+        margin-left: 355px;
+        margin-top: 100px;
+    }
+    .f,.s,.t,.fo,.fi 
+    {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .conimg
+    {
+        margin-left: 590px;
+    }
+    .ele {
+        font-size: 40px;
+        padding-left: 110px;
+        text-align: center;
+    }
+    .ele1 {
+        font-size: 40px;
+        padding-left: 60px;
+        text-align: center;
+    }
+    .ele2 {
+        font-size: 40px;
+        text-align: center;
+        padding-right: 90px;
+    }
+    .ele3 {
+        font-size: 40px;
+        text-align: center;
+        padding-right: 50px;
+    }
+    .ele4 {
+        font-size: 40px;
+        text-align: center;
+        padding-left: 40px;
+    }
+    .para,.para1,.para2,.para3,.para4 
+    {
+        display: none;
+    }
+    .conimg1 
+    {
+        margin-left: 580px;
+    }
+    .conimg2
+    {
+        margin-left: 500px;
+    }
+    .conimg3 
+    {
+        margin-left: 520px;
+    }
+    .conimg4 
+    {
+        margin-left: 510px;
+    }
+    .accordion {
+        width: 72%;
+        margin-left: 210px;
+    }
+    .exp 
+    {
+        width: 100%;
+    }
+    .btn-white 
+    {
+        margin-left: 10px;
+    }
+    .flogo 
+    {
+        margin-left: 550px;
+    }
+    .btn-brown1 
+    {
+        margin-left: 520px;
+        width: 20%;
+    }
+}
